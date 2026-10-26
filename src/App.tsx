@@ -48,7 +48,7 @@ export default function App() {
       {/* 2. CONTEÚDO PRINCIPAL */}
       <main className="max-w-6xl mx-auto px-4 py-8 flex-1 w-full space-y-12">
         
-        {/* LISTAGEM 1: ITENS EM DESTAQUE (10 ITENS MANUAIS COM FOTOS) */}
+        {/* LISTAGEM 1: ITENS EM DESTAQUE (10 ITENS MANUAIS COM FUNDO BRANCO) */}
         <section aria-labelledby="itens-destaque-title">
           <div className="flex items-center justify-between border-b border-slate-200 pb-3 mb-6">
             <div>
@@ -72,11 +72,11 @@ export default function App() {
               <span className="bg-sky-100 text-sky-800 text-xs font-semibold px-3 py-1 self-start m-3 rounded-full">
                 Acessório
               </span>
-              <div className="h-48 relative overflow-hidden bg-slate-100">
+              <div className="h-36 relative overflow-hidden bg-white flex items-center justify-center p-2">
                 <img 
                   src="/CarretilhaPerfilBaixo.jpg" 
                   alt="Carretilha Perfil Baixo" 
-                  className="w-full h-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
                 <button aria-label="Favoritar" className="absolute top-2 right-2 bg-white/90 p-1.5 rounded-full shadow text-base transition hover:scale-110">
                   🤍
@@ -101,11 +101,11 @@ export default function App() {
               <span className="bg-emerald-100 text-emerald-800 text-xs font-semibold px-3 py-1 self-start m-3 rounded-full">
                 Item Diverso
               </span>
-              <div className="h-48 relative overflow-hidden bg-slate-100">
+              <div className="h-36 relative overflow-hidden bg-white flex items-center justify-center p-2">
                 <img 
                   src="/Alicate_Balança.jpg" 
                   alt="Alicate Balança" 
-                  className="w-full h-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
                 <button aria-label="Favoritar" className="absolute top-2 right-2 bg-white/90 p-1.5 rounded-full shadow text-base transition hover:scale-110">
                   🤍
@@ -130,11 +130,11 @@ export default function App() {
               <span className="bg-indigo-100 text-indigo-800 text-xs font-semibold px-3 py-1 self-start m-3 rounded-full">
                 Item de Pesca
               </span>
-              <div className="h-48 relative overflow-hidden bg-slate-100">
+              <div className="h-36 relative overflow-hidden bg-white flex items-center justify-center p-2">
                 <img 
                   src="/VaraCarbono.jpg" 
                   alt="Vara de Carbono" 
-                  className="w-full h-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
                 <button aria-label="Favoritar" className="absolute top-2 right-2 bg-white/90 p-1.5 rounded-full shadow text-base transition hover:scale-110">
                   🤍
@@ -159,11 +159,11 @@ export default function App() {
               <span className="bg-amber-100 text-amber-800 text-xs font-semibold px-3 py-1 self-start m-3 rounded-full">
                 Isca
               </span>
-              <div className="h-48 relative overflow-hidden bg-slate-100">
+              <div className="h-36 relative overflow-hidden bg-white flex items-center justify-center p-2">
                 <img 
                   src="/IscaArtificial.jpg" 
                   alt="Kit Iscas Artificiais" 
-                  className="w-full h-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
                 <button aria-label="Favoritar" className="absolute top-2 right-2 bg-white/90 p-1.5 rounded-full shadow text-base transition hover:scale-110">
                   🤍
@@ -188,11 +188,11 @@ export default function App() {
               <span className="bg-sky-100 text-sky-800 text-xs font-semibold px-3 py-1 self-start m-3 rounded-full">
                 Acessório
               </span>
-              <div className="h-48 relative overflow-hidden bg-slate-100">
+              <div className="h-36 relative overflow-hidden bg-white flex items-center justify-center p-2">
                 <img 
                   src="/LinhaMulti.jpg" 
                   alt="Linha Multifilamento" 
-                  className="w-full h-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
                 <button aria-label="Favoritar" className="absolute top-2 right-2 bg-white/90 p-1.5 rounded-full shadow text-base transition hover:scale-110">
                   🤍
@@ -217,11 +217,11 @@ export default function App() {
               <span className="bg-purple-100 text-purple-800 text-xs font-semibold px-3 py-1 self-start m-3 rounded-full">
                 Vestuário
               </span>
-              <div className="h-48 relative overflow-hidden bg-slate-100">
+              <div className="h-36 relative overflow-hidden bg-white flex items-center justify-center p-2">
                 <img 
                   src="/ChapeuSafari.jpg" 
                   alt="Chapéu Safari" 
-                  className="w-full h-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
                 <button aria-label="Favoritar" className="absolute top-2 right-2 bg-white/90 p-1.5 rounded-full shadow text-base transition hover:scale-110">
                   🤍
@@ -246,11 +246,11 @@ export default function App() {
               <span className="bg-indigo-100 text-indigo-800 text-xs font-semibold px-3 py-1 self-start m-3 rounded-full">
                 Item de Pesca
               </span>
-              <div className="h-48 relative overflow-hidden bg-slate-100">
+              <div className="h-36 relative overflow-hidden bg-white flex items-center justify-center p-2">
                 <img 
                   src="/MolineteResistente.jpg" 
                   alt="Molinete Resistente" 
-                  className="w-full h-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
                 <button aria-label="Favoritar" className="absolute top-2 right-2 bg-white/90 p-1.5 rounded-full shadow text-base transition hover:scale-110">
                   🤍
@@ -275,11 +275,11 @@ export default function App() {
               <span className="bg-emerald-100 text-emerald-800 text-xs font-semibold px-3 py-1 self-start m-3 rounded-full">
                 Item Diverso
               </span>
-              <div className="h-48 relative overflow-hidden bg-slate-100">
+              <div className="h-36 relative overflow-hidden bg-white flex items-center justify-center p-2">
                 <img 
                   src="/CaixaDePesca.jpg" 
                   alt="Caixa de Pesca" 
-                  className="w-full h-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
                 <button aria-label="Favoritar" className="absolute top-2 right-2 bg-white/90 p-1.5 rounded-full shadow text-base transition hover:scale-110">
                   🤍
@@ -304,11 +304,11 @@ export default function App() {
               <span className="bg-sky-100 text-sky-800 text-xs font-semibold px-3 py-1 self-start m-3 rounded-full">
                 Acessório
               </span>
-              <div className="h-48 relative overflow-hidden bg-slate-100">
+              <div className="h-36 relative overflow-hidden bg-white flex items-center justify-center p-2">
                 <img 
                   src="/Passagua.jpg" 
                   alt="Passaguá de Pesca" 
-                  className="w-full h-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
                 <button aria-label="Favoritar" className="absolute top-2 right-2 bg-white/90 p-1.5 rounded-full shadow text-base transition hover:scale-110">
                   🤍
@@ -333,11 +333,11 @@ export default function App() {
               <span className="bg-purple-100 text-purple-800 text-xs font-semibold px-3 py-1 self-start m-3 rounded-full">
                 Vestuário
               </span>
-              <div className="h-48 relative overflow-hidden bg-slate-100">
+              <div className="h-36 relative overflow-hidden bg-white flex items-center justify-center p-2">
                 <img 
                   src="/LuvaPesca.jpg" 
                   alt="Luva de Pesca" 
-                  className="w-full h-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
                 <button aria-label="Favoritar" className="absolute top-2 right-2 bg-white/90 p-1.5 rounded-full shadow text-base transition hover:scale-110">
                   🤍
@@ -360,7 +360,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* LISTAGEM 2: ALUGUEL DE BARCOS (3 ITENS MANUAIS COM FOTOS) */}
+        {/* LISTAGEM 2: ALUGUEL DE BARCOS (3 ITENS MANUAIS COM FUNDO BRANCO) */}
         <section aria-labelledby="aluguel-barcos-title" className="pt-6 border-t border-slate-200">
           <div className="flex items-center justify-between border-b border-slate-200 pb-3 mb-6">
             <div>
@@ -376,16 +376,15 @@ export default function App() {
             </span>
           </div>
 
-          {/* Grid Responsivo da listagem secundária */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             
             {/* Barco 1: Boat Pro */}
             <article className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm flex flex-col">
-              <div className="h-48 overflow-hidden bg-slate-100 border-b border-slate-100">
+              <div className="h-44 overflow-hidden bg-white flex items-center justify-center p-2 border-b border-slate-100">
                 <img 
                   src="/BoatPro.jpg" 
                   alt="Boat Pro 17ft" 
-                  className="w-full h-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
               </div>
               <div className="p-5 flex-1 flex flex-col justify-between">
@@ -408,11 +407,11 @@ export default function App() {
 
             {/* Barco 2: Bote Pantaneiro */}
             <article className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm flex flex-col">
-              <div className="h-48 overflow-hidden bg-slate-100 border-b border-slate-100">
+              <div className="h-44 overflow-hidden bg-white flex items-center justify-center p-2 border-b border-slate-100">
                 <img 
                   src="/BotePantaneiro.jpg" 
                   alt="Bote Pantaneiro" 
-                  className="w-full h-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
               </div>
               <div className="p-5 flex-1 flex flex-col justify-between">
@@ -435,11 +434,11 @@ export default function App() {
 
             {/* Barco 3: Lancha Marajó */}
             <article className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm flex flex-col">
-              <div className="h-48 overflow-hidden bg-slate-100 border-b border-slate-100">
+              <div className="h-44 overflow-hidden bg-white flex items-center justify-center p-2 border-b border-slate-100">
                 <img 
                   src="/LanchaMarajo.jpg" 
                   alt="Lancha Marajó Master" 
-                  className="w-full h-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
               </div>
               <div className="p-5 flex-1 flex flex-col justify-between">
