@@ -1,3 +1,9 @@
-# Artigos de Pesca e Aluguel de Barcos
+# Bait & Boat
 
-Aplicação front-end para comércio de equipamentos de pesca desportiva e aluguel de embarcações desenvolvida para o TCD.
+Aplicação front-end single page desenvolvida em React e TypeScript para a loja de artigos de pesca e aluguel de barcos **Bait & Boat**.
+
+## Como executar o projeto
+
+1. Instale as dependências:
+   ```bash
+   npm install
